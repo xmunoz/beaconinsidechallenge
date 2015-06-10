@@ -13,3 +13,7 @@
 .inline {
     display: inline-block;
 }
+
+.disable-input {
+    cursor: not-allowed;
+}
