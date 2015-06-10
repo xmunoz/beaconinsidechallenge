@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mcmguaba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="encryption.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row-top">
+        <div class="col-md-8 col-md-offset-2">
+        <form>
+          <div class="row row-middle">
+            <div class="col-md-6">
+              <label>Enter input</label>
+              <textarea class="width-full form-control" rows="5"></textarea>
+            </div>
+            <div class="col-md-6">
+              <label>Result</label>
+              <textarea class="width-full form-control" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <select class="form-control inline">
+                <option>Encrypt</option>
+                <option>Decrypt</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <button type="submit" class="btn btn-default">Go!</button>
+            </div>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="loadCipher.js"></script>
+  </body>
+</html>

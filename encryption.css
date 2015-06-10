@@ -1,0 +1,15 @@
+.width-full {
+    width: 100%;
+}
+
+.row-top {
+    margin-top: 15%;
+}
+
+.row-middle {
+    margin-bottom: 5%;
+}
+
+.inline {
+    display: inline-block;
+}
