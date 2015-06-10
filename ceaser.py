@@ -18,21 +18,20 @@ def cipher(message, shift):
     end_byte = ord("Z")
     encrypted_message = ""
 
-    for ch in message:
-        byte_position = ord(ch)
+    for char in message:
+        byte_position = ord(char)
         # don't manipulate non-alphabetic characters
         if byte_position > end_byte or byte_position < begin_byte:
-            encrypted_message += ch
+            encrypted_message += char
         else:
             new_byte = normalize(byte_position + shift, begin_byte, end_byte)
             encrypted_message += chr(new_byte)
 
     return encrypted_message
 
-
 def usage():
     return "Usage: {} [encrypt|decrypt] <message>".format(sys.argv[0])
-    
+
 def main():
     if len(sys.argv) != 3:
         print "Wrong number of arguments."
@@ -52,4 +51,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main() 
+    main()
