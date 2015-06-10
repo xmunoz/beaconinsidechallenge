@@ -10,7 +10,7 @@
                 $(".result").text(cipherText);
             })
             .error(function(err) {
-                console.log(err)
+                alert("CORS error! Check console for more details.")
             })
     });
 })();
