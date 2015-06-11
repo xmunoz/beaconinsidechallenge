@@ -2,10 +2,9 @@
 
     $("button").click(function() {
         var userInput = this.form.elements["user-input"].value.toUpperCase();
-        var operation = this.form.elements["operation"].value;
-        var apiEndpoint = "https://beaconinside-crypto.appspot.com/caesar/" + operation
+        var endpointOperation = this.form.elements["operation"].value;
         var params = { "message": userInput }
-        $.get(apiEndpoint, params)
+        $.get(endpointOperation, params)
             .done(function(cipherText) {
                 $(".result").text(cipherText);
             })

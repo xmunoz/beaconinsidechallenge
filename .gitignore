@@ -1,0 +1,5 @@
+# virtualenv
+venv_*
+
+# python
+*.py[cod]
