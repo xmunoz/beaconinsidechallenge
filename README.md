@@ -10,4 +10,4 @@ The Ceaser Cipher tool can also be used as a command line tool, with a configura
 
 ## Web Usage
 The web interface is a simple flask app with 3 endpoints: the home page, /encrypt and /decrypt.
-[drag]: https://raw.githubusercontent.com/xmunoz/beaconinsidechallenge/master/screenshot.png
+![I'm not a designer...](https://raw.githubusercontent.com/xmunoz/beaconinsidechallenge/master/screenshot.png)
