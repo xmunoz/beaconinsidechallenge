@@ -36,6 +36,7 @@ def main():
     if len(sys.argv) != 3:
         print "Wrong number of arguments."
         print usage()
+	return
 
     command = sys.argv[1]
     message = sys.argv[2]
