@@ -1,4 +1,4 @@
-## [caesar](http://www.xmunoz.com/caesar/)
+## [caesar](http://www.xmunoz.com/encryption)
 Encrypt and decrypt a string using a [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)!
 
 ## CLI Usage
